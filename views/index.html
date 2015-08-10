@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Team Helios</title>
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+		<link href="style/main.css" rel="stylesheet">
+		<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+		<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+		<script src="js/display.js"></script>
+		<link rel="icon" type="image/png" href="img/logo.png" />
+		<link rel="author license" href="LICENSE.txt">
+	</head>
+
+	<body>
+
+		<nav class="navbar navbar-default">
+			<div class="container">
+
+				<div class="navbar-header">
+					<button class="navbar-toggle collapsed" data-target="#navbar-collapse-1" data-toggle="collapse"
+					type="button"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><img alt='logo' id='logoNav' src="img/logo.png" width="39" /><a class="navbar-brand" href="/">Team Helios</a>
+				</div>
+
+				<div class="collapse navbar-collapse navbar-right" id="navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li id='presentationNav'>
+							<a href="#presentation" class="scrollTo">Presentation</a>
+						</li>
+
+						<li class="dropdown" id='buildNav'>
+						   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Map<span class="caret"></span></a>
+						   <ul class="dropdown-menu" role="menu">
+						     <li><a href="#slider" class='scrollTo'>Nos réalisations</a></li>
+						     <li class="divider"></li>
+						     <li><a href="#build1" class='scrollTo'>Build 1</a></li>
+						     <li><a href="#build2" class='scrollTo'>Build 2</a></li>
+						     <li><a href="#build3" class='scrollTo'>Build 3</a></li>
+						     <li><a href="#build4" class='scrollTo'>Build 4</a></li>
+						     <li><a href="#build5" class='scrollTo'>Build 5</a></li>
+						   </ul>
+						 </li>
+						
+						<li id='contactNav'>
+							<a href="#contact" class='scrollTo'>Nous contacter</a>
+						</li>
+						<li class="dropdown" id='otherNav'>
+						   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Autres<span class="caret"></span></a>
+						   <ul class="dropdown-menu" role="menu">
+						     <li><a href="https://twitter.com/TeamHeliosFr">Twitter</a></li>
+						     <li><a href="https://www.youtube.com/channel/UCajwa0oVHAsYgt3ENpLfsbQ">Youtube</a></li>
+						     <li><a href="http://www.planetminecraft.com/member/team:helios/">Pmc</a></li>
+						   </ul>
+						 </li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div id="bg"></div>
+		<div id="overlay"></div>
+		<div id="filter"></div>
+		<section class="firstPage">
+			<img alt='logo' src="img/logo.png" width="130" height='130' />
+			<h2>Team Helios</h2>
+			<a href='#presentation' class='scrollTo'><span class="glyphicon glyphicon-chevron-down" id='chevron'></span></a>
+		</section>
+		
+		<div id='containerInfo'>
+			<section id='presentation'>
+				<h4>Presentation</h4>
+				<hr/>
+				<div id='presentationContainer'>
+					<div id='presentationContain'>
+
+						<a data-title='Foxrim'><img alt='user' src="http://mrfreezeex.fr/avatar/3d.php?vr=0&amp;hr=0&amp;headOnly=true&amp;aa=true&amp;user=Foxrim"/></a>
+						<a data-title='CaptainBaroud'><img alt='user' src="http://mrfreezeex.fr/avatar/3d.php?vr=0&amp;hr=0&amp;headOnly=true&amp;aa=true&amp;user=CaptainBaroud"/></a>
+						<a data-title='mttp85'><img alt='user' src="http://mrfreezeex.fr/avatar/3d.php?vr=0&amp;hr=0&amp;headOnly=true&amp;aa=true&amp;user=mttp85"/></a>
+						<a data-title='MrGilant'><img alt='user' src="http://mrfreezeex.fr/avatar/3d.php?vr=0&amp;hr=0&amp;headOnly=true&amp;aa=true&amp;user=MrGilant"/></a>
+						<a data-title='VirtuaMC'><img alt='user' src="http://mrfreezeex.fr/avatar/3d.php?vr=0&amp;hr=0&amp;headOnly=true&amp;aa=true&amp;user=VirtuaMC"/></a>
+						<a data-title='Sly1995'><img alt='user' src="http://mrfreezeex.fr/avatar/3d.php?vr=0&amp;hr=0&amp;headOnly=true&amp;aa=true&amp;user=Sly1995"/></a>
+						<a data-title='Hydros_'><img alt='user' src="http://mrfreezeex.fr/avatar/3d.php?vr=0&amp;hr=0&amp;headOnly=true&amp;aa=true&amp;user=Hydros_"/></a>
+						<a data-title='ausephal'><img alt='user' src="http://mrfreezeex.fr/avatar/3d.php?vr=0&amp;hr=0&amp;headOnly=true&amp;aa=true&amp;user=ausephal"/></a>
+						<a data-title='Hologrin'><img alt='user' src="http://mrfreezeex.fr/avatar/3d.php?vr=0&amp;hr=0&amp;headOnly=true&amp;aa=true&amp;user=Hologrin"/></a>
+						<a data-title='Blackkill64'><img alt='user' src="http://mrfreezeex.fr/avatar/3d.php?vr=0&amp;hr=0&amp;headOnly=true&amp;aa=true&amp;user=Blackkill64"/></a>
+						<a data-title='luluty'><img alt='user' src="http://mrfreezeex.fr/avatar/3d.php?vr=0&amp;hr=0&amp;headOnly=true&amp;aa=true&amp;user=luluty"/></a>
+						<a data-title='cinegab'><img alt='user' src="http://mrfreezeex.fr/avatar/3d.php?vr=0&amp;hr=0&amp;headOnly=true&amp;aa=true&amp;user=cinegab"/></a>
+						<a data-title='Oxylium_'><img alt='user' src="http://mrfreezeex.fr/avatar/3d.php?vr=0&amp;hr=0&amp;headOnly=true&amp;aa=true&amp;user=Oxylium_"/></a>
+						<a data-title='Victofu'><img alt='user' src="http://mrfreezeex.fr/avatar/3d.php?vr=0&amp;hr=0&amp;headOnly=true&amp;aa=true&amp;user=Victofu"/></a>
+					</div>
+				</div>
+				<div id='descPresentationContainer'>
+					<h5>Notre histoire</h5>
+					<hr/>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					
+					<h5>Nos membres</h5>
+					<hr/>
+					<ul>
+						<li><span class='glyphicon glyphicon-chevron-right'></span>Foxrim - Chef de Team</li>
+						<li><span class='glyphicon glyphicon-chevron-right'></span>CaptainBaroud - Second de Team</li>
+						<li><span class='glyphicon glyphicon-chevron-right'></span>mttp85 - Buildeur</li>
+						<li><span class='glyphicon glyphicon-chevron-right'></span>MrGilant - Buildeur</li>
+						<li><span class='glyphicon glyphicon-chevron-right'></span>VirtuaMC - Buildeur</li>
+						<li><span class='glyphicon glyphicon-chevron-right'></span>Sly1995 - Buildeur</li>
+						<li><span class='glyphicon glyphicon-chevron-right'></span>Hydros_ - Buildeur</li>
+						<li><span class='glyphicon glyphicon-chevron-right'></span>ausephal - Buildeur</li>
+						<li><span class='glyphicon glyphicon-chevron-right'></span>Hologrin - Buildeur</li>
+						<li><span class='glyphicon glyphicon-chevron-right'></span>Blackkill64 - Terraformeur</li>
+						<li><span class='glyphicon glyphicon-chevron-right'></span>luluty - Redstonneurs</li>
+						<li><span class='glyphicon glyphicon-chevron-right'></span>cinegab - Redstonneurs</li>
+						<li><span class='glyphicon glyphicon-chevron-right'></span>Oxylium_ - Redstonneurs</li>
+						<li><span class='glyphicon glyphicon-chevron-right'></span>Victofu - Redstonneurs</li>
+					</ul>
+				</div>
+			</section>
+			<span class='glyphicon glyphicon-chevron-left slideChevron slideChevronLeft'></span>
+			<span class='glyphicon glyphicon-chevron-right slideChevron slideChevronRight'></span>
+			<section id='slider'>
+				<h5>Les Constructions</h5>
+				<hr />
+				<div id='sliderContainer'>
+					<div class='slide'>
+						<div class='slideContainer'>
+							<div class='imgContainer'>
+								<a class='scrollTo' href='#build1'><img alt='build' src='img/build1.jpg'/></a>
+							</div>
+						</div>
+					</div><div class='slide'>
+						<div class='slideContainer'>
+							<div class='imgContainer'>
+								<a class='scrollTo' href='#build2'><img alt='build' src='img/build2.jpg'/></a>
+							</div>
+						</div>
+					</div><div class='slide'>
+						<div class='slideContainer'>
+							<div class='imgContainer'>
+								<a class='scrollTo' href='#build3'><img alt='build' src='img/soon.jpg'/></a>
+							</div>
+						</div>
+					</div><div class='slide'>
+						<div class='slideContainer'>
+							<div class='imgContainer'>
+								<a class='scrollTo' href='#build4'><img alt='build' src='img/soon.jpg'/></a>
+							</div>
+						</div>
+					</div><div class='slide'>
+						<div class='slideContainer'>
+							<div class='imgContainer'>
+								<a class='scrollTo' href='#build5'><img alt='build' src='img/soon.jpg'/></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<span>N'hésite pas à aller voir nos autres build sur : <a href=''>Planet Minecraft</a> et <a href=''>YoutTube</a></span>
+			</section>
+			<section id='build'>
+				<div class='build' id='build1'>
+					<h6>Build 1</h6>
+					<hr/>
+					<div class='buildContainer'>
+					Build moderne représentant blablablablablab  blablablabla blabla
+						<span class='h7'>Les Images</span>
+						<hr/>
+					</div>
+					<div class='buildImgContainer'>
+						<img alt='build' class='img' src="img/build1_1.jpg"/>
+						<img alt='build' class='img' src="img/build1_2.jpg"/>
+						<img alt='build' class='img' src="img/build1_3.jpg"/>
+						<img alt='build' class='img' src="img/soon.jpg"/>
+					</div>
+					<div class='buildContainer'>
+						<span class='h7'>La Vidéo</span>
+						<hr/ class='vid'>
+						<iframe style="border:0;" width="592" height="333" src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+					</div>
+					<span class='help'>Aidé par Machindu42</span>
+				</div>				
+				<div class='build' id='build2'>
+					<h6>Build 2</h6>
+					<hr/>
+					<div class='buildContainer'>
+						Build moderne représentant blablablablablab  blablablabla blabla
+						<span class='h7'>Les Images</span>
+						<hr/>
+					</div>
+					<div class='buildImgContainer'>
+					<img alt='build' class='img' src="img/build2_1.jpg"/>
+					<img alt='build' class='img' src="img/build2_2.jpg"/>
+					<img alt='build' class='img' src="img/build2_3.jpg"/>
+					<img alt='build' class='img' src="img/build2_4.jpg"/>
+					</div>
+					<div class='buildContainer'>
+						<span class='h7'>La Vidéo</span>
+						<hr/ class='vid'>
+						<iframe style="border:0;" width="592" height="333" src="https://www.youtube.com/embed/_weViFdKYs4" allowfullscreen></iframe>
+					</div>
+					<span class='help'>Aidé par Machindu42</span>
+				</div>
+				<div class='build' id='build3'>
+					<h6>Build 3</h6>
+					<hr/>
+					<div class='buildContainer'>
+						Build moderne représentant blablablablablab  blablablabla blabla
+						<span class='h7'>Les Images</span>
+						<hr/>
+					</div>
+					<div class='buildImgContainer'>
+						<img alt='build' class='img' src="img/soon.jpg"/>
+						<img alt='build' class='img' src="img/soon.jpg"/>
+						<img alt='build' class='img' src="img/soon.jpg"/>
+						<img alt='build' class='img' src="img/soon.jpg"/>
+					</div>
+					<div class='buildContainer'>
+						<span class='h7'>La Vidéo</span>
+						<hr/ class='vid'>
+						<iframe style="border:0;" width="592" height="333" src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+					</div>
+					<span class='help'>Aidé par Machindu42</span>
+				</div>
+				<div class='build' id='build4'>
+					<h6>Build 4</h6>
+					<hr/>
+					<div class='buildContainer'>
+						Build moderne représentant blablablablablab  blablablabla blabla
+						<span class='h7'>Les Images</span>
+						<hr/>
+					</div>
+					<div class='buildImgContainer'>
+						<img alt='build' class='img' src="img/soon.jpg"/>
+						<img alt='build' class='img' src="img/soon.jpg"/>
+						<img alt='build' class='img' src="img/soon.jpg"/>
+						<img alt='build' class='img' src="img/soon.jpg"/>
+					</div>
+					<div class='buildContainer'>
+						<span class='h7'>La Vidéo</span>
+						<hr/ class='vid'>
+						<iframe style="border:0;" width="592" height="333" src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+					</div>
+					<span class='help'>Aidé par Machindu42</span>
+				</div>
+				<div class='build' id='build5'>
+					<h6>Build 5</h6>
+					<hr/>
+					<div class='buildContainer'>
+						Build moderne représentant blablablablablab  blablablabla blabla
+						<span class='h7'>Les Images</span>
+						<hr/>
+					</div>
+					<div class='buildImgContainer'>
+						<img alt='build' class='img' src="img/soon.jpg"/>
+						<img alt='build' class='img' src="img/soon.jpg"/>
+						<img alt='build' class='img' src="img/soon.jpg"/>
+						<img alt='build' class='img' src="img/soon.jpg"/>
+					</div>
+					<div class='buildContainer'>
+						<span class='h7'>La Vidéo</span>
+						<hr/ class='vid'>
+						<iframe style="border:0;" width="592" height="333" src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+					</div>
+					<span class='help'>Aidé par Machindu42</span>
+				</div>	
+			</section>
+
+			<section id='contact'>
+				<h6>Contacte nous</h6>
+				
+				<span class="glyphicon glyphicon-envelope"></span> Par email : <a href='teamheliosfr@gmail.com'>teamheliosfr@gmail.com</a>
+				<span class='socialtitle'>Par nos réseaux sociaux</span>
+				<a href='https://twitter.com/TeamHeliosFr'><img alt='twitter' width="45" src='img/twitter.png'/> Twitter</a><br/>
+				<a href='https://twitter.com/TeamHeliosFr'><img style='margin: 0 7px;' alt='mc' width="30" src='img/mc.png'/> Planet Minecraft</a>
+
+			</section>
+			<footer>
+				<hr/>
+				© 2015 - helioteam.fr<br/>
+				Proudly Designed by <a href='https://twitter.com/Mr_Freezeex'>Mr_Freezeex</a>
+				<hr/>
+			</footer>
+		</div>
+	</body>
+</html>
